@@ -5,6 +5,11 @@ covers secure-by-default design principles, the vulnerability classes worth deli
 against, and a lightweight approach to threat modeling that fits into normal engineering work rather
 than requiring a separate specialist track for every change.
 
+For a deeper, practitioner-level treatment of any of these topics — authentication and
+authorization, the supply chain, secrets, structured threat modeling — see
+[`security/`](security/README.md), which follows the same shape as this guide but goes further:
+common vulnerabilities, review questions, worked examples, and prevention strategies per topic.
+
 ## Secure-by-default principles
 
 - **Deny by default, allow explicitly.** Access control, network exposure, and permissions should

@@ -65,6 +65,23 @@ How correctness, maintainability, and interface quality get verified.
 | [`api-design-guide.md`](./api-design-guide.md) | Designing stable interfaces: versioning, error contracts, idempotency, pagination. |
 | [`database-guidelines.md`](./database-guidelines.md) | Safe schema migrations, indexing discipline, transaction boundaries, data retention. |
 
+### Application Security deep dive
+
+[`security-guide.md`](./security-guide.md) above states this toolkit's security principles in a
+page. [`security/`](security/README.md) is the practitioner-level layer beneath it — six documents
+written from an application security engineer's perspective, each with common vulnerabilities,
+review questions, worked examples, and prevention strategies.
+
+| Doc | Description |
+|---|---|
+| [`security/README.md`](security/README.md) | Index and how this folder relates to `security-guide.md` and the rest of the toolkit. |
+| [`security/security-principles.md`](security/security-principles.md) | The AppSec mental model: risk-based thinking, attacker framing, recurring failure shapes. |
+| [`security/secure-development-checklist.md`](security/secure-development-checklist.md) | A stage-by-stage checklist from design through post-deploy. |
+| [`security/authentication-and-authorization.md`](security/authentication-and-authorization.md) | AuthN vs. AuthZ, credential storage, and the IDOR pattern behind most real-world authorization bugs. |
+| [`security/dependency-management.md`](security/dependency-management.md) | The supply-chain-attack lens on dependencies, including a real finding fixed in this repo's own CI. |
+| [`security/secrets-management.md`](security/secrets-management.md) | How secrets get committed by accident, and why removing one from history isn't enough. |
+| [`security/threat-modeling.md`](security/threat-modeling.md) | STRIDE applied practically, with a fully worked example. |
+
 ## Reliability & Operations
 
 How systems are run, observed, and kept healthy in production.
