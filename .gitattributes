@@ -1,0 +1,30 @@
+# Normalize all text files to LF in the repository; Git converts to the
+# platform's native line ending on checkout unless overridden below.
+* text=auto eol=lf
+
+# Shell scripts must keep LF endings or they break on Linux/macOS runners.
+*.sh text eol=lf
+
+# Windows PowerShell scripts are conventionally CRLF; leave them native
+# rather than forcing LF, since Windows PowerShell 5.1 tooling expects it.
+*.ps1 text eol=crlf
+
+# Markdown, YAML, JSON, config files: plain text, diffable.
+*.md text
+*.yml text
+*.yaml text
+*.json text
+*.editorconfig text
+*.gitattributes text
+*.gitignore text
+
+# SVG is XML text, not a binary blob — keep it diffable.
+*.svg text eol=lf
+
+# Common binary/image assets, if ever added: do not diff, do not convert.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary

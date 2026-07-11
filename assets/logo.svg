@@ -1,0 +1,11 @@
+<svg viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="engineering-toolkit-logo-title">
+  <title id="engineering-toolkit-logo-title">Engineering Toolkit</title>
+  <!-- Mark: a hex-bolt outline, standing in for "engineering tools" -->
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <polygon points="50,30 40,47.32 20,47.32 10,30 20,12.68 40,12.68" />
+    <circle cx="30" cy="30" r="8" />
+  </g>
+  <!-- Wordmark -->
+  <text x="70" y="26" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="2" fill="currentColor">ENGINEERING</text>
+  <text x="70" y="48" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="1" fill="currentColor">TOOLKIT</text>
+</svg>

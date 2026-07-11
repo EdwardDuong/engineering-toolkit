@@ -1,0 +1,30 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly, Monday 06:00 UTC — catches external link rot that only
+    # manifests over time (push/PR triggers alone won't surface it).
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-links:
+    name: Validate Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Make script executable
+        run: chmod +x scripts/validate-links.sh
+
+      - name: Run validate-links.sh
+        shell: bash
+        run: scripts/validate-links.sh

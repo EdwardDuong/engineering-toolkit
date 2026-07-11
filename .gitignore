@@ -1,0 +1,51 @@
+# This is a language-agnostic toolkit repo. Keep this file short and
+# generic — do not accumulate a multi-language dump here. If you drop this
+# toolkit into a project with its own stack, merge this with that project's
+# existing .gitignore instead of replacing it.
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs and temp output
+*.log
+logs/
+tmp/
+temp/
+
+# Common language dependency/build directories (illustrative — uncomment or
+# add the ones relevant to the host project; this repo itself has none)
+# node_modules/
+# dist/
+# build/
+# venv/
+# __pycache__/
+# target/
+
+# Local override files
+.env.override
+*.local
+
+# Local Claude Code session state (machine-specific, not part of the toolkit)
+.claude/settings.local.json
+.claude/*.lock
