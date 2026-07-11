@@ -1,6 +1,6 @@
 # ADR-0007: Use an Asynchronous Message Queue for Cross-Service Notification Delivery
 
-This follows the structure of [`../templates/adr.md`](../templates/adr.md).
+This follows the structure of [`../templates/ADR.md`](../templates/ADR.md).
 
 **Status:** Accepted
 **Date:** 2026-02-18

@@ -60,7 +60,15 @@ add a new file, you must also add it to that index in the same PR:
 Rules of thumb:
 
 - Use kebab-case filenames everywhere (`root-cause-analysis.md`, not
-  `RootCauseAnalysis.md` or `root_cause_analysis.md`).
+  `RootCauseAnalysis.md` or `root_cause_analysis.md`) — **with one deliberate
+  exception**: the nine decision-record templates at the core of `templates/`
+  (`ADR.md`, `FEATURE_SPEC.md`, `TECHNICAL_DESIGN.md`, `API_DESIGN.md`,
+  `DATABASE_CHANGE.md`, `BUG_REPORT.md`, `POSTMORTEM.md`, `PR_TEMPLATE.md`,
+  `CODE_REVIEW.md`) use `SCREAMING_SNAKE_CASE`, matching the convention
+  mature engineering orgs and tools (GitHub's own `PULL_REQUEST_TEMPLATE.md`,
+  `CODEOWNERS`, `SECURITY.md`) use for standalone, capitalized reference
+  documents. If you add a tenth template to that specific set, match its
+  casing; every other new file in the repo stays kebab-case.
 - Cross-link using **relative Markdown links** (e.g.
   `[ADR guide](../docs/adr-guide.md)` from within `templates/`), never
   absolute URLs into the repo, so the toolkit works whether it's cloned

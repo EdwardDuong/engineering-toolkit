@@ -1,6 +1,6 @@
 # Example Pull Request: Add Exponential Backoff Retry to Notification Delivery Worker
 
-This follows the structure of [`../templates/pull-request.md`](../templates/pull-request.md).
+This follows the structure of [`../templates/PR_TEMPLATE.md`](../templates/PR_TEMPLATE.md).
 It illustrates what a genuinely reviewable PR description looks like, as opposed to a
 one-line "fixes bug" summary.
 

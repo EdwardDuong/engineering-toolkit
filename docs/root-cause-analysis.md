@@ -87,6 +87,6 @@ the same conditions.
 ## Where findings go
 
 Root cause and contributing-factor findings feed directly into the postmortem document — see
-[`../templates/postmortem.md`](../templates/postmortem.md) and
+[`../templates/POSTMORTEM.md`](../templates/POSTMORTEM.md) and
 [`postmortem-guide.md`](./postmortem-guide.md) for how findings become tracked, owned action items
 rather than a list of interesting observations that nobody follows up on.

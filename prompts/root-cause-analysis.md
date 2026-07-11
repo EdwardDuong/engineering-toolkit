@@ -18,7 +18,7 @@ that trails off after the technical fix.
   understood) and you need a formal writeup.
 - You want to distinguish the proximate cause from the underlying systemic
   causes that let it happen.
-- You are feeding output into [`../templates/postmortem.md`](../templates/postmortem.md)
+- You are feeding output into [`../templates/POSTMORTEM.md`](../templates/POSTMORTEM.md)
   and want the analysis section pre-structured.
 
 ## The prompt
@@ -101,7 +101,7 @@ alerting on {{specific_metric}} exceeding {{threshold}}").
   what made that easy to forget (no lint rule, no checklist, no default)?
 - Don't skip Step 4 — it isn't filler, it's what keeps the RCA process
   trusted enough that people report incidents honestly.
-- Feed the finished analysis into [`../templates/postmortem.md`](../templates/postmortem.md)
+- Feed the finished analysis into [`../templates/POSTMORTEM.md`](../templates/POSTMORTEM.md)
   for the full incident document, and see
   [`../docs/root-cause-analysis.md`](../docs/root-cause-analysis.md) for the
   underlying methodology and when 5-Whys vs. fault-tree analysis fits

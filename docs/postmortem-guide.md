@@ -27,7 +27,7 @@ than just the one that already happened.
 
 ## Structure
 
-A postmortem, using [`../templates/postmortem.md`](../templates/postmortem.md), should cover:
+A postmortem, using [`../templates/POSTMORTEM.md`](../templates/POSTMORTEM.md), should cover:
 
 - **Summary** — a short, factual description of what happened and its impact, readable by someone
   with no context in under a minute.

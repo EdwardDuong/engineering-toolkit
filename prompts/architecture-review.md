@@ -108,5 +108,5 @@ one-paragraph rationale.
   miss.
 - Use alongside [`../checklists/architecture-review.md`](../checklists/architecture-review.md)
   for a structured pre-approval gate, and route the output into
-  [`../templates/adr.md`](../templates/adr.md) if the decision needs to be
+  [`../templates/ADR.md`](../templates/ADR.md) if the decision needs to be
   recorded.

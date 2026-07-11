@@ -70,7 +70,8 @@ engineering-toolkit/
 ├── .claude/                           # Claude Code configuration
 │   ├── CLAUDE.md                      # Project-level instructions for Claude Code
 │   ├── rules/                         # Composable rules (architecture, readability, security, ...)
-│   ├── commands/                      # Slash commands (/implement-feature, /review-pr, ...)
+│   ├── commands/                      # Slash commands (/plan, /implement, /review, /test, /security-audit)
+│   ├── agents/                        # Specialized personas (backend, frontend, database, DevOps, security, architect, reviewer)
 │   └── workflows/                     # Multi-step workflows (feature dev, bug fix, release)
 │
 ├── docs/                              # Engineering playbook and reference guides
@@ -149,12 +150,17 @@ this structure with no adaptation required:
    repository root.
 2. Claude Code automatically loads `.claude/CLAUDE.md` as project
    instructions at the start of every session.
-3. Slash commands in `.claude/commands/` (e.g. `/implement-feature`,
-   `/investigate-bug`, `/review-pr`) become available immediately — no
+3. Slash commands in `.claude/commands/` (`/plan`, `/implement`, `/review`,
+   `/test`, `/security-audit`) become available immediately — no
    registration step.
-4. Rules in `.claude/rules/` are referenced from `CLAUDE.md` and shape how
+4. Specialized agent personas in `.claude/agents/` (backend, frontend,
+   database, DevOps, security, architect, reviewer) give Claude Code a
+   domain-specific lens — responsibilities, a review checklist, decision
+   principles, and common mistakes to avoid — for the kind of work a change
+   actually involves.
+5. Rules in `.claude/rules/` are referenced from `CLAUDE.md` and shape how
    Claude Code approaches architecture, testing, security, and code review
-   by default.
+   by default, regardless of which command or agent is active.
 
 No other setup is required — this is the toolkit's primary, first-class
 integration path.

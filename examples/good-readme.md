@@ -111,7 +111,7 @@ other, since they're isolated by design — see the architecture doc's failure-m
 
 See [`../CONTRIBUTING.md`](../CONTRIBUTING.md) for general conventions. Before opening a
 PR, run `make lint test`. PRs should follow
-[`../templates/pull-request.md`](../templates/pull-request.md) — see
+[`../templates/PR_TEMPLATE.md`](../templates/PR_TEMPLATE.md) — see
 [`good-pull-request.md`](good-pull-request.md) for a worked example.
 
 ## Related Documents

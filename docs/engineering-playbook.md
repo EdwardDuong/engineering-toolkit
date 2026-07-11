@@ -54,11 +54,19 @@ The docs in this folder fall into five layers, and they build on each other:
    `decision-making.md`, `architecture-review.md`, `rfc-process.md`, `adr-guide.md`,
    `engineering-metrics.md`) — how decisions get made, recorded, and measured over time.
 
+Sitting on top of all five is **[`workflows/`](workflows/README.md)** — the operating model. Each
+topical doc above explains one standard in isolation; `workflows/` is where those standards get
+applied together, in order, on a real piece of work: a feature shipped from discovery through
+deployment, a bug fixed from investigation through regression prevention, a database migration
+sequenced safely, an API contract changed without breaking a caller, a production incident handled
+from detection through postmortem. Read a topical doc to understand a standard; read a workflow to
+understand how an experienced team actually executes it.
+
 These layers are not independent chapters — they're cross-linked deliberately. `dry-principle.md`
 links to `technical-debt.md` because unmanaged duplication becomes debt.
 `architecture-principles.md` links to `adr-guide.md` and `rfc-process.md` because principles are
 useless if the decisions that apply them aren't recorded anywhere. `code-review-guide.md` links to
-`../checklists/before-pull-request.md` and `../templates/pull-request.md` because guidance without
+`../checklists/before-pull-request.md` and `../templates/PR_TEMPLATE.md` because guidance without
 an artifact to apply it to doesn't change behavior.
 
 The companion folders complete the loop:
@@ -71,6 +79,10 @@ The companion folders complete the loop:
   isn't left to interpretation.
 - `.claude/rules/` — machine-enforced versions of a subset of these principles, for teams using AI
   coding agents.
+- `.claude/agents/` and `.claude/commands/` — specialized personas and slash commands that give
+  Claude Code the same domain judgment described here, and `.claude/workflows/` — the
+  AI-agent-executable counterparts to `docs/workflows/feature-development.md` and
+  `docs/workflows/bug-fix.md`, for teams that want an assistant to actually run the sequence.
 
 ## How to adopt this toolkit incrementally
 

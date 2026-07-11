@@ -1,6 +1,6 @@
 <!--
 This is the GitHub-consumed PR template for the engineering-toolkit repo
-itself. It mirrors the structure of templates/pull-request.md, which is the
+itself. It mirrors the structure of templates/PR_TEMPLATE.md, which is the
 generic PR template this toolkit provides for *consumer* projects to reuse.
 -->
 

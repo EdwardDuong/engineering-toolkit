@@ -25,7 +25,7 @@ reading a record of why it was made this way, would that be a costly mistake? If
 
 ## Structure
 
-Use [`../templates/adr.md`](../templates/adr.md), which follows the standard structure:
+Use [`../templates/ADR.md`](../templates/ADR.md), which follows the standard structure:
 
 - **Title** — a short, specific statement of the decision, not the problem: "Use event sourcing for
   the order-processing subsystem," not "How should we handle order processing?"

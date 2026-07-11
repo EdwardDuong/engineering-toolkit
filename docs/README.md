@@ -9,6 +9,21 @@ language, on any cloud, unmodified.
 explains the overall philosophy and gives you an incremental adoption path instead of a wall of
 process to swallow at once.
 
+## Operating Model
+
+The topical sections below explain individual principles and standards. [`workflows/`](workflows/)
+is different — it's the narrative, end-to-end sequence an experienced team actually follows for the
+five recurring shapes of engineering work, with the judgment calls made explicit at each step.
+
+| Doc | Description |
+|---|---|
+| [`workflows/README.md`](workflows/README.md) | Index and how the five workflows relate to each other and to the rest of the toolkit. |
+| [`workflows/feature-development.md`](workflows/feature-development.md) | Discovery, requirements, technical design, implementation, testing, review, deployment. |
+| [`workflows/bug-fix.md`](workflows/bug-fix.md) | Investigation, root cause analysis, fix, regression prevention. |
+| [`workflows/database-change.md`](workflows/database-change.md) | Migration safety, backward compatibility, rollback strategy. |
+| [`workflows/api-change.md`](workflows/api-change.md) | Contract changes, versioning, security. |
+| [`workflows/production-incident.md`](workflows/production-incident.md) | Detection, mitigation, communication, postmortem. |
+
 ## Principles
 
 Foundational thinking that informs every other document in this folder.
@@ -86,7 +101,7 @@ How decisions get made, recorded, and revisited.
 - Every doc is self-contained: you should be able to read one in isolation and understand it, though
   cross-links point to related material.
 - Links to `templates/`, `checklists/`, `prompts/`, and `examples/` use relative paths (e.g.
-  `../templates/adr.md`) so this folder works whether it lives at a repo root or is vendored into a
+  `../templates/ADR.md`) so this folder works whether it lives at a repo root or is vendored into a
   subdirectory.
 - None of these docs name a specific language, framework, or cloud vendor as a requirement.
   Illustrative examples may mention one, but the guidance itself is portable.

@@ -18,11 +18,11 @@ implements one of the postmortem's action items.
 | Example | Illustrates | Template |
 |---|---|---|
 | [`good-architecture-doc.md`](good-architecture-doc.md) | A living architecture document for the notification service: components, key design decisions, data flow, and failure modes. | See [`../docs/architecture-principles.md`](../docs/architecture-principles.md) |
-| [`good-adr.md`](good-adr.md) | An Architecture Decision Record for choosing asynchronous, queue-based delivery over synchronous provider calls. | [`../templates/adr.md`](../templates/adr.md) |
+| [`good-adr.md`](good-adr.md) | An Architecture Decision Record for choosing asynchronous, queue-based delivery over synchronous provider calls. | [`../templates/ADR.md`](../templates/ADR.md) |
 | [`good-api-documentation.md`](good-api-documentation.md) | A complete API reference for the notification service's HTTP endpoints, including request/response examples and error codes. | See [`../docs/api-design-guide.md`](../docs/api-design-guide.md) |
 | [`good-incident-report.md`](good-incident-report.md) | A live-incident-style report for a real-time email delivery outage, with a timeline and impact assessment. | [`../templates/incident-report.md`](../templates/incident-report.md) |
-| [`good-postmortem.md`](good-postmortem.md) | A blameless postmortem for the same incident: five-whys root cause, contributing factors, and owned action items. | [`../templates/postmortem.md`](../templates/postmortem.md) |
-| [`good-pull-request.md`](good-pull-request.md) | A pull request description implementing one of the postmortem's action items, with testing and rollback plans. | [`../templates/pull-request.md`](../templates/pull-request.md) |
+| [`good-postmortem.md`](good-postmortem.md) | A blameless postmortem for the same incident: five-whys root cause, contributing factors, and owned action items. | [`../templates/POSTMORTEM.md`](../templates/POSTMORTEM.md) |
+| [`good-pull-request.md`](good-pull-request.md) | A pull request description implementing one of the postmortem's action items, with testing and rollback plans. | [`../templates/PR_TEMPLATE.md`](../templates/PR_TEMPLATE.md) |
 | [`good-readme.md`](good-readme.md) | A concise, genuinely useful service README for the notification-service repository itself. | [`../templates/project-readme.md`](../templates/project-readme.md) |
 
 ## How to use these

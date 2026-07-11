@@ -1,6 +1,6 @@
 # Postmortem Checklist
 
-Run this while writing and reviewing a postmortem after an incident, by the incident owner together with participants. Use [../templates/postmortem.md](../templates/postmortem.md) as the document template and [../docs/postmortem-guide.md](../docs/postmortem-guide.md) for the full process. A postmortem that doesn't produce owned action items is just a story.
+Run this while writing and reviewing a postmortem after an incident, by the incident owner together with participants. Use [../templates/POSTMORTEM.md](../templates/POSTMORTEM.md) as the document template and [../docs/postmortem-guide.md](../docs/postmortem-guide.md) for the full process. A postmortem that doesn't produce owned action items is just a story.
 
 ## Framing
 

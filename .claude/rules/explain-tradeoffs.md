@@ -39,7 +39,7 @@ A tradeoff explanation doesn't need to be long. State, concisely:
 Put this in the PR description, commit message, or code comment closest to
 the decision — wherever a future reader will actually see it. For decisions
 significant enough to warrant a permanent record, write it up as an ADR
-using [templates/adr.md](../../templates/adr.md); see
+using [templates/ADR.md](../../templates/ADR.md); see
 [docs/decision-making.md](../../docs/decision-making.md) for how to decide
 which decisions deserve that level of permanence.
 

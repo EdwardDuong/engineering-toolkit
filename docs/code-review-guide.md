@@ -111,5 +111,5 @@ doubt about severity, ask rather than silently blocking or silently letting it t
 - If splitting isn't possible for a specific change, say so explicitly in the PR description and
   explain why — this saves the reviewer from repeatedly asking.
 
-See [`../templates/pull-request.md`](../templates/pull-request.md) for the PR description template
+See [`../templates/PR_TEMPLATE.md`](../templates/PR_TEMPLATE.md) for the PR description template
 that gives reviewers the context they need up front.

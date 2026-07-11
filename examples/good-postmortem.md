@@ -1,6 +1,6 @@
 # Postmortem: Elevated Email Delivery Failures (INC-2026-0341)
 
-This follows the structure of [`../templates/postmortem.md`](../templates/postmortem.md)
+This follows the structure of [`../templates/POSTMORTEM.md`](../templates/POSTMORTEM.md)
 and the guidance in [`../docs/postmortem-guide.md`](../docs/postmortem-guide.md). This
 postmortem is blameless: it exists to fix the system, not to assign fault to the people
 who operated it under incomplete information.

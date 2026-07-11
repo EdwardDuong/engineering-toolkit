@@ -4,7 +4,7 @@ Run this before opening a PR (or moving it out of draft), by the PR author. A PR
 
 ## Description
 
-- [ ] PR description is complete, following [../templates/pull-request.md](../templates/pull-request.md)
+- [ ] PR description is complete, following [../templates/PR_TEMPLATE.md](../templates/PR_TEMPLATE.md)
 - [ ] The "why" is explained, not just the "what" (link to the ticket/issue if one exists)
 - [ ] Linked issue or ticket is referenced (e.g., `Closes #123`)
 - [ ] Screenshots, recordings, or sample output are attached for user-visible changes

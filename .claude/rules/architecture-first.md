@@ -35,7 +35,7 @@ true:
 - A reviewer or teammate would reasonably ask "why this approach?" and the
   answer isn't obvious from the diff.
 
-Use [templates/adr.md](../../templates/adr.md) as the starting structure and
+Use [templates/ADR.md](../../templates/ADR.md) as the starting structure and
 follow [docs/adr-guide.md](../../docs/adr-guide.md) for how to scope and
 write it. An ADR does not need to be long — a page that captures context,
 options considered, decision, and consequences is enough.

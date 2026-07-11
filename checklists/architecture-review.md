@@ -1,6 +1,6 @@
 # Architecture Review Checklist
 
-Run this for any change that introduces a new service, a new external dependency, a significant data model change, or a decision that will be expensive to reverse later. Run by the design's author together with reviewers who aren't already bought into the approach. Pair with [../docs/architecture-review.md](../docs/architecture-review.md) and record the decision using [../templates/adr.md](../templates/adr.md).
+Run this for any change that introduces a new service, a new external dependency, a significant data model change, or a decision that will be expensive to reverse later. Run by the design's author together with reviewers who aren't already bought into the approach. Pair with [../docs/architecture-review.md](../docs/architecture-review.md) and record the decision using [../templates/ADR.md](../templates/ADR.md).
 
 ## Alternatives
 

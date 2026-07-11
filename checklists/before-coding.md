@@ -11,7 +11,7 @@ Run this before writing the first line of a nontrivial change. Applies to the en
 
 ## Design
 
-- [ ] For nontrivial work, a design approach has been considered and, where warranted, written down (see [../templates/adr.md](../templates/adr.md))
+- [ ] For nontrivial work, a design approach has been considered and, where warranted, written down (see [../templates/ADR.md](../templates/ADR.md))
 - [ ] At least one alternative approach was considered and rejected for a stated reason (protects against the first idea being the only idea)
 - [ ] The blast radius of the change is understood (what breaks if this is wrong)
 - [ ] Any new dependency (library, service, API) has been justified, not just convenient
