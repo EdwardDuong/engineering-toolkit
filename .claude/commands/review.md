@@ -18,7 +18,7 @@ that don't show up as a failing test today and become expensive later.
      error paths, not just the stated happy path.
    - Tests actually exercise the new behavior (would they fail if the
      change were reverted?), per
-     [`../../docs/testing-strategy.md`](../../docs/testing-strategy.md).
+     [`../../docs/testing/testing-strategy.md`](../../docs/testing/testing-strategy.md).
    - No existing behavior silently changed as a side effect — check the
      blast radius, not just the lines touched.
 

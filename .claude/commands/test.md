@@ -13,7 +13,7 @@ ships — this command exists to prevent that.
 ## Process
 
 1. **Establish the test pyramid shape for this change.** Per
-   [`../../docs/testing-strategy.md`](../../docs/testing-strategy.md),
+   [`../../docs/testing/testing-strategy.md`](../../docs/testing/testing-strategy.md),
    decide, explicitly:
    - What belongs at the unit level — pure logic, edge cases, error paths
      that don't require real collaborators.
@@ -54,7 +54,7 @@ ships — this command exists to prevent that.
    the fix isn't verifying anything. This step is not optional; skipping it
    is the single most common way meaningless tests enter a codebase.
 
-6. **Check flaky-test risk.** Per `docs/testing-strategy.md`'s flaky test
+6. **Check flaky-test risk.** Per `docs/testing/testing-strategy.md`'s flaky test
    policy — any test with real-time dependencies, unmocked network calls, or
    order-dependent state should be flagged and fixed before it's added, not
    merged with a known intermittent-failure risk.

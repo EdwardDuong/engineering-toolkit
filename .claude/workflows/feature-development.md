@@ -43,7 +43,7 @@ all that apply.
 Once the implementation is functionally complete, run [`/test`](../commands/test.md) against the
 new code — not to generate cases blindly, but to reason explicitly about what needs coverage at
 what level (unit, integration, end-to-end) per
-[docs/testing-strategy.md](../../docs/testing-strategy.md), and to catch edge cases and error paths
+[docs/testing/testing-strategy.md](../../docs/testing/testing-strategy.md), and to catch edge cases and error paths
 that weren't exercised during implementation.
 
 ## 5. Security-audit if the feature touches a trust boundary

@@ -115,7 +115,7 @@ reading:
 - **No behavior change ships without a test that fails without it.** This is not negotiable — see
   [`rules/tests-and-documentation.md`](rules/tests-and-documentation.md).
 - Run the full relevant test suite before calling a change done, not just the tests you added. See
-  [`docs/testing-strategy.md`](../docs/testing-strategy.md) for the test pyramid and coverage
+  [`docs/testing/testing-strategy.md`](../docs/testing/testing-strategy.md) for the test pyramid and coverage
   philosophy this toolkit expects.
 - Use `/test` (see [Commands](#commands)) to reason about test *strategy* — what to cover and at
   what level — before writing tests, not just to generate cases after the fact.

@@ -23,7 +23,7 @@ true:
   incomplete during implementation, the ticket (or a follow-up) reflects the update — not silently
   divergent code.
 - **Automated tests cover the new/changed behavior**, including the failure paths, not just the
-  happy path. See [`testing-strategy.md`](./testing-strategy.md) for what "meaningful coverage"
+  happy path. See [`testing/testing-strategy.md`](./testing/testing-strategy.md) for what "meaningful coverage"
   means here.
 - **Code has been reviewed and approved** per [`code-review-guide.md`](./code-review-guide.md), with
   all blocking comments resolved.

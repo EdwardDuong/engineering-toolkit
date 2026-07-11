@@ -43,7 +43,7 @@ The docs in this folder fall into five layers, and they build on each other:
 2. **Process & Workflow** (`git-workflow.md`, `branch-strategy.md`, `conventional-commits.md`,
    `semantic-versioning.md`, `documentation-standards.md`, `definition-of-ready.md`,
    `definition-of-done.md`) — how work flows from idea to shipped artifact.
-3. **Quality & Review** (`code-review-guide.md`, `testing-strategy.md`, `performance-guide.md`,
+3. **Quality & Review** (`code-review-guide.md`, `testing/testing-strategy.md`, `performance-guide.md`,
    `security-guide.md`, `api-design-guide.md`, `database-guidelines.md`) — how correctness and
    maintainability get verified before and during review.
 4. **Reliability & Operations** (`logging-standards.md`, `observability-guide.md`,
@@ -109,7 +109,7 @@ work" on their own.
 
 Once phase 1 is routine, add:
 
-- [`testing-strategy.md`](./testing-strategy.md) and
+- [`testing/testing-strategy.md`](./testing/testing-strategy.md) and
   [`checklists/before-pull-request.md`](../checklists/before-pull-request.md)
 - [`definition-of-ready.md`](./definition-of-ready.md) (the other half of "done" — knowing when work
   is actually startable)

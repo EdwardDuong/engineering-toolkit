@@ -34,7 +34,7 @@ In rough priority order:
    source? See [`../checklists/security-review.md`](../checklists/security-review.md) for anything
    security-sensitive.
 4. **Test coverage of the actual change** — not a blanket percentage, but: is the new behavior
-   verified, and are the failure modes verified? See [`testing-strategy.md`](./testing-strategy.md).
+   verified, and are the failure modes verified? See [`testing/testing-strategy.md`](./testing/testing-strategy.md).
 5. **Readability and naming** — can a reader unfamiliar with this specific change follow it? See
    [`clean-code.md`](./clean-code.md).
 6. **Scope discipline** — does the PR do one coherent thing, or does it mix an unrelated refactor

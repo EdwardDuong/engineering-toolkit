@@ -85,7 +85,7 @@ cost, timeline, doesn't generalize, conflicts with an existing pattern.]
 <!-- How the team will know, after shipping, whether this actually solved the Problem stated above
      — not just whether it shipped. -->
 
-- **Pre-launch:** [test strategy reference — see ../docs/testing-strategy.md — and any beta/staged
+- **Pre-launch:** [test strategy reference — see ../docs/testing/testing-strategy.md — and any beta/staged
   rollout plan]
 - **Success metric:** [the specific, measurable signal that indicates the problem is improving —
   tied directly back to the evidence cited in Context, e.g., "checkout abandonment on the payment

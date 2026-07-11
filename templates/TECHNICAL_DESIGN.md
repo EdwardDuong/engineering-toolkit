@@ -94,7 +94,7 @@ deferred," and that tradeoff deserves stating.]
 <!-- How this design will be verified correct before and after it ships. -->
 
 - **Test strategy:** [what's covered at unit/integration/end-to-end level per
-  ../docs/testing-strategy.md, and anything this design specifically needs — a load test, a
+  ../docs/testing/testing-strategy.md, and anything this design specifically needs — a load test, a
   migration dry-run against production-scale data]
 - **Rollout plan:** [direct deploy, feature flag, canary, or staged rollout — per
   ../.claude/agents/devops-engineer.md — matched to this design's actual risk level]

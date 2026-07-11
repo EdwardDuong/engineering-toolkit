@@ -93,6 +93,6 @@ After generating tests, state:
 - If the contract itself is unclear, that's a signal the code needs
   clarification before it needs tests — don't let the AI infer a contract
   from implementation quirks.
-- See [`../docs/testing-strategy.md`](../docs/testing-strategy.md) for
+- See [`../docs/testing/testing-strategy.md`](../docs/testing/testing-strategy.md) for
   guidance on which test level (unit/integration/e2e) a given case belongs
   at, and this repo's coverage philosophy.

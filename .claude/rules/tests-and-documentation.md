@@ -20,7 +20,7 @@ change, the change isn't done.
 - Edge cases and error paths touched by the change need coverage, not just
   the happy path.
 
-Follow [docs/testing-strategy.md](../../docs/testing-strategy.md) for what
+Follow [docs/testing/testing-strategy.md](../../docs/testing/testing-strategy.md) for what
 level of test (unit, integration, end-to-end) is appropriate for the change,
 and confirm you've met the bar in
 [docs/definition-of-done.md](../../docs/definition-of-done.md) before

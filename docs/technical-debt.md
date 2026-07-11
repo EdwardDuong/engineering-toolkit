@@ -78,6 +78,6 @@ Debt frequently originates from the failure modes covered elsewhere in this fold
 deduplicated across the wrong boundary (see [`dry-principle.md`](./dry-principle.md)), a design that
 skipped necessary upfront thinking under time pressure (see
 [`architecture-principles.md`](./architecture-principles.md)), or missing test coverage from a
-rushed release (see [`testing-strategy.md`](./testing-strategy.md)). Recognizing which principle was
+rushed release (see [`testing/testing-strategy.md`](./testing/testing-strategy.md)). Recognizing which principle was
 compromised when debt was incurred helps target the actual fix, not just a superficial cleanup that
 leaves the underlying cause free to reproduce the same debt again.

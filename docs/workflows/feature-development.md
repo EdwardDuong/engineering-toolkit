@@ -111,7 +111,7 @@ not what actually needed coverage. An experienced team treats the test strategy 
 question, not a final chore.
 
 - Decide the test pyramid shape for this specific change per
-  [`testing-strategy.md`](../testing-strategy.md): what belongs at unit level, what requires a real
+  [`testing/testing-strategy.md`](../testing/testing-strategy.md): what belongs at unit level, what requires a real
   collaborator (integration), and whether anything genuinely needs end-to-end coverage.
 - Cover the acceptance criteria from the requirements step explicitly, plus the edge cases and
   error paths identified during design — not just the happy path a demo would show.

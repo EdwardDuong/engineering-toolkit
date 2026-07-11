@@ -59,11 +59,25 @@ How correctness, maintainability, and interface quality get verified.
 | Doc | Description |
 |---|---|
 | [`code-review-guide.md`](./code-review-guide.md) | What reviewers look for, review etiquette, actionable feedback, blocking vs. non-blocking comments. |
-| [`testing-strategy.md`](./testing-strategy.md) | The test pyramid, coverage philosophy, test data management, flaky test policy. |
 | [`performance-guide.md`](./performance-guide.md) | Performance budgets, profiling before optimizing, common anti-patterns, load testing. |
 | [`security-guide.md`](./security-guide.md) | Secure-by-default design, common vulnerability classes, lightweight threat modeling. |
 | [`api-design-guide.md`](./api-design-guide.md) | Designing stable interfaces: versioning, error contracts, idempotency, pagination. |
 | [`database-guidelines.md`](./database-guidelines.md) | Safe schema migrations, indexing discipline, transaction boundaries, data retention. |
+
+### Testing deep dive
+
+Testing has its own folder, not a single doc — five documents that avoid textbook definitions in
+favor of the actual judgment calls (what "unit" means and why that's contested, when the pyramid's
+shape should and shouldn't apply, where each layer's discipline most commonly breaks down).
+
+| Doc | Description |
+|---|---|
+| [`testing/README.md`](testing/README.md) | Index and how the five documents relate to each other. |
+| [`testing/testing-strategy.md`](testing/testing-strategy.md) | The overview: what should and shouldn't be tested, the pyramid as a heuristic, coverage philosophy, maintainability, CI integration. |
+| [`testing/unit-testing.md`](testing/unit-testing.md) | What "unit" actually means (classicist vs. mockist) and where mocking discipline most commonly fails. |
+| [`testing/integration-testing.md`](testing/integration-testing.md) | What a real-boundary test verifies that unit tests can't, and keeping this layer from drifting into e2e scope. |
+| [`testing/end-to-end-testing.md`](testing/end-to-end-testing.md) | Why this layer is uniquely flaky and must stay small and critical-path-focused. |
+| [`testing/test-review-checklist.md`](testing/test-review-checklist.md) | Reviewing whether a specific test is actually good, not just that it exists. |
 
 ### Application Security deep dive
 
