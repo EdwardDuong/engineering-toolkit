@@ -1,0 +1,11 @@
+# CODEOWNERS
+#
+# Referenced by CODE_OF_CONDUCT.md's enforcement section and used by GitHub
+# to auto-request review on pull requests touching the paths below.
+#
+# Order matters: later, more specific rules override earlier ones. This
+# repo starts with a single blanket owner; split into path-specific rules
+# (e.g. a distinct owner for scripts/ or .claude/) once there's more than
+# one regular maintainer.
+
+* @EdwardDuong

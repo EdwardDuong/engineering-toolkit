@@ -59,7 +59,7 @@ as a subtree, or read it as a reference while building your own internal standar
 
 | Folder | What it provides |
 |---|---|
-| [`docs/`](docs/README.md) | 37 reference guides — architecture, clean code (SOLID/KISS/YAGNI/DRY), git workflow, security, performance, observability, incident response, ADRs/RFCs — plus three practitioner-level deep dives: [`docs/testing/`](docs/testing/README.md), [`docs/security/`](docs/security/README.md), and the narrative operating model in [`docs/workflows/`](docs/workflows/README.md) (feature development, bug fixes, database changes, API changes, production incidents). |
+| [`docs/`](docs/README.md) | 35 reference guides — architecture, clean code (SOLID/KISS/YAGNI/DRY), git workflow, security, performance, observability, incident response, ADRs/RFCs — plus three practitioner-level deep dives: [`docs/testing/`](docs/testing/README.md), [`docs/security/`](docs/security/README.md), and the narrative operating model in [`docs/workflows/`](docs/workflows/README.md) (feature development, bug fixes, database changes, API changes, production incidents — the first two of which also have `.claude/workflows/` agent-executable counterparts). |
 | [`templates/`](templates/README.md) | Fill-in-the-blank artifacts: a nine-document decision-record core (`ADR.md`, `FEATURE_SPEC.md`, `TECHNICAL_DESIGN.md`, `API_DESIGN.md`, `DATABASE_CHANGE.md`, `BUG_REPORT.md`, `POSTMORTEM.md`, `PR_TEMPLATE.md`, `CODE_REVIEW.md`) sharing one Context/Problem/Decision/Alternatives/Risks/Validation/Ownership structure, plus RFCs, epics, user stories, runbooks, and release notes. |
 | [`prompts/`](prompts/README.md) | 16 portable prompts for implementing features, investigating bugs, reviewing PRs, security/performance review, refactoring, and generating tests — usable with any LLM-based coding assistant, not just Claude Code. |
 | [`checklists/`](checklists/README.md) | 13 gate checklists spanning the delivery lifecycle: before coding, before commit, before PR, before merge, before release, production readiness, security review, architecture review. |
@@ -91,14 +91,16 @@ engineering-toolkit/
 │   ├── agents/                        # backend/frontend/database/devops/security-engineer, architect, reviewer
 │   └── workflows/                     # Feature development, bug fix, release — as agent-executable playbooks
 │
-├── docs/                              # 37 core reference guides, plus:
-│   ├── workflows/                     # The operating model — narrative, human-readable versions of .claude/workflows/
+├── docs/                              # 35 core reference guides, plus:
+│   ├── workflows/                     # The operating model — narrative playbooks; feature-development.md and
+│   │                                   #   bug-fix.md have .claude/workflows/ counterparts, the other 3 don't yet
 │   ├── security/                      # AppSec deep dive: authN/authZ, secrets, dependencies, threat modeling
 │   ├── testing/                       # Testing deep dive: unit/integration/e2e, test review
-│   ├── audit/                         # This repo's own self-audit
-│   └── changelog/                     # Records of structural changes to this toolkit itself
+│   ├── audit/                         # This repo's own self-audit (dated snapshot, not a living doc)
+│   ├── changelog/                     # Records of structural changes to this toolkit itself (dated snapshots)
+│   └── reviews/                       # Pre-release staff engineer review
 │
-├── templates/                         # 23 fill-in-the-blank artifacts (9-doc decision-record core + more)
+├── templates/                         # 22 fill-in-the-blank artifacts (9-doc decision-record core + more)
 ├── prompts/                           # 16 portable AI prompts, framework-agnostic
 ├── checklists/                        # 13 lifecycle gate checklists
 ├── examples/                          # Worked examples built around one running scenario
@@ -162,7 +164,7 @@ This toolkit is intentionally generic. Before treating it as your team's actual 
   [`docs/rfc-process.md`](docs/rfc-process.md) on day one. Delete or mark folders as "not yet
   adopted" rather than leaving unused process to create false expectations. See
   [`docs/engineering-playbook.md`](docs/engineering-playbook.md) for a phased adoption path instead
-  of adopting all 37+ docs, 23 templates, and 13 checklists in one sprint.
+  of adopting all 35+ docs, 22 templates, and 13 checklists in one sprint.
 
 ## 6. Claude Code Integration
 
